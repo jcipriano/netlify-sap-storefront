@@ -13,6 +13,9 @@
   # Default build command.
   command = "ng build"
 
+[template.environment]
+  SAP_CREDENTIALS = "SAP_CREDENTIALS"
+
 [context.dev.environment]
   SAP_CREDENTIALS = "SAP_CREDENTIALS"
 
