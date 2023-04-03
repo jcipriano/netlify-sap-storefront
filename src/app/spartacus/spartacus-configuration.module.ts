@@ -14,7 +14,12 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
       }
     },
   }), provideConfig(<SiteContextConfig>{
-    context: {},
+    context: {
+      urlParameters: ['baseSite', 'language', 'currency'],
+      baseSite: ['electronics-spa'],
+      currency: ['USD'],
+      language: ['en']
+    },
   }), provideConfig(<I18nConfig>{
     i18n: {
       resources: translations,
