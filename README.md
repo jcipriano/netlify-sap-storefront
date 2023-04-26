@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Deploy
+
+Deploy to Netlify with one click. Enter your NPM Base64 Credentials to access composable storefront libraries from the "Repository Based Shipment Channel (RBSC)" when prompted.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jcipriano/netlify-sap-storefront)
